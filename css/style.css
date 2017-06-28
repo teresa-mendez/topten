@@ -56,23 +56,15 @@ section.wereco{
 }
 
 .wereco .recommendation {
-  /* background-color: #fff; */
-  background-color: red;
-  margin-bottom: 2rem;
-  border-right: 0.5rem solid green;
+  background-color: #fff;
+  margin: 0 1rem 2rem 0;
+  padding: 0 0 0 1rem;
+  border-right: 0.5rem solid lightblue;
 }
 
-/* .wereco .recommendation .best-choice { */
-/*   float: left; */
-/*   background-color: green; */
-/*   height: 100%; */
-/* } */
-
-/* .wereco .recommendation .best-choice strong { */
-/*   transform: rotate(-90deg); */
-/*   color: #fff; */
-/*   color: #fff; */
-/*   float: left; */
-/*   background-color: green; */
-/*   height: 100%; */
-/* } */
+.wereco .recommendation.best-choice {
+  background-image: url(../img/best-choise.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
