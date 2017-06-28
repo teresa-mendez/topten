@@ -47,3 +47,88 @@ section.top {
 .wereco{
   background-color: #f9fcfe;
 }
+
+
+.mostpopu{
+  background-color: color: rgb(255, 255, 255);;
+}
+
+.mostpopu h2{
+  font-size: 2.25rem; /* 36/16 */
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.mostpopu .thumbnail{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mostpopu .thumbnail .caption p{
+  color: rgb(0, 0, 0);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem; /* 16/16 */
+  text-align: left;
+}
+
+.faq{
+  background-color: color: rgb(255, 255, 255);;
+}
+
+ h2.title-faq{
+  font-size: 2.25rem;
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.faq .cua1{
+  background-color: #293f54;
+  color: rgb(255, 255, 255);
+}
+
+.faq .cua2{
+  background-color: #34526c;
+  color: rgb(255, 255, 255);
+}
+
+.faq h2.subtitle{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem; /* 24/16 */
+  font-weight: 100;
+}
+
+.faq p{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.938rem;  /* 15/16 */
+  font-weight: 100;
+}
+
+footer p{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.875rem; /* 14/16 */
+  font-weight: 100;
+  color: rgb(41, 63, 84);
+  text-align: center;
+  padding: 3.5rem;
+}
+
+.footer-nav{
+  text-align: center;
+
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.footer-nav li{
+  display:inline-block;
+  margin: 1.2rem 0;
+}
+
+.footer-nav li>a{
+  color: rgb(41, 63, 84);
+  text-decoration: none;
+  margin: 0 0.8em 0;
+}
