@@ -1,0 +1,46 @@
+html{
+  background-color: #f9fcfe;
+  font-size: 15px;
+  height: 100%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+  background-color: #f9fcfe;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar{
+  border: 0;
+  margin: auto;
+  padding-bottom: 1vh;
+  background-color: #e0f2fc;
+}
+
+.navbar-collapse{
+  border: 0;
+  padding-bottom: 1vh;
+}
+
+.jumbotron{
+  margin: 0;
+}
+
+.hero {
+  background-color: #e0f2fc;
+  padding: 3.125rem 0 1.125rem;
+}
+
+.hero h1{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 100;
+  color: #293f54;
+}
+
+.hero h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #293f54;
+}
