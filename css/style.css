@@ -22,6 +22,7 @@ section.top {
 .jumbotron{
   background-color: #e0f2fc;
   padding: 1.5rem;
+  margin: 0;
 }
 
 .jumbotron h1{
@@ -44,8 +45,46 @@ section.top {
   background-position: right;
 }
 
-.wereco{
-  background-color: #f9fcfe;
+section.wereco{
+  /* background-color: #f9fcfe; */
+  background-color: blue;
+}
+
+.wereco h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.wereco .recommendation {
+  background-color: #fff;
+  margin: 0 1rem 2rem 0;
+  padding: 0 0 0 1rem;
+  border-right: 0.5rem solid lightblue;
+}
+
+.wereco .recommendation.best-choice {
+  background-image: url(../img/best-choise.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.recommendation .fa-star {
+  color: #f4d86a;
+}
+
+.recommendation .green-stuff {
+  color: #b3d560;
+}
+
+.recommendation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recommendation .features .fa-check {
+  color: #b3d560;
 }
 
 
