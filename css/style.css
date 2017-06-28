@@ -1,46 +1,49 @@
 html{
-  background-color: #f9fcfe;
-  font-size: 15px;
+  font-size: 16px;
   height: 100%;
   font-family: "Nunito Sans", sans-serif;
 }
 
 body{
-  background-color: #f9fcfe;
+  background-color: #e0f2fc;
   font-family: "Nunito Sans", sans-serif;
 }
 
-.navbar{
-  border: 0;
-  margin: auto;
-  padding-bottom: 1vh;
+header{
   background-color: #e0f2fc;
 }
 
-.navbar-collapse{
+.navbar {
   border: 0;
-  padding-bottom: 1vh;
+  border-radius: 0;
+  background-color: #e0f2fc;
 }
 
 .jumbotron{
-  margin: 0;
-}
-
-.hero {
   background-color: #e0f2fc;
-  padding: 3.125rem 0 1.125rem;
+  padding: 1.5rem;
 }
 
-.hero h1{
+.jumbotron h1{
   font-family: "Nunito Sans", sans-serif;
-  font-size: 2.8rem;
+  font-size: 3.125rem; /* 50/16 */
   font-weight: 100;
-  color: #293f54;
+  color: rgb(41, 63, 84);
 }
 
-.hero h2{
+.jumbotron h2{
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem; /* 18/16 */
   font-weight: 100;
-  color: #293f54;
+  color: rgb(41, 63, 84);
+}
+
+.img-back{
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.wereco{
+  background-color: #f9fcfe;
 }
