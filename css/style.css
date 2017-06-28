@@ -5,11 +5,11 @@ html{
 }
 
 body{
-  background-color: #e0f2fc;
+  background-color: #f9fcfe;
   font-family: "Nunito Sans", sans-serif;
 }
 
-header{
+section.top {
   background-color: #e0f2fc;
 }
 
