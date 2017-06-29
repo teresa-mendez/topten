@@ -87,9 +87,39 @@ section.wereco{
   color: #b3d560;
 }
 
+.wereco .learn-more:hover{
+  border-color: none;
+  background-image: url(../img/read-more.png);
+}
+
+.btn{
+font-family: "Montserrat", sans-serif;
+font-size: 1.125rem; /* 18/16 */
+color: rgb(255, 255, 255);
+background-color: #a6ce39;
+border: 0;
+border-radius: 0;
+padding: 1.0rem 2.7rem;
+}
+
+.btn-default:hover {
+  color: rgb(255, 255, 255);
+  background-color:#b1db3d;
+  border-color: none;
+}
+
+.btn-default:focus, .btn-default:active{
+  color: rgb(255, 255, 255);
+  background-color:#b1db3d;
+  border-color: none;
+}
+
+.btn-content{
+  text-align: center;
+}
 
 .mostpopu{
-  background-color: color: rgb(255, 255, 255);;
+  background-color: rgb(255, 255, 255);
 }
 
 .mostpopu h2{
@@ -112,7 +142,7 @@ section.wereco{
 }
 
 .faq{
-  background-color: color: rgb(255, 255, 255);;
+  background-color: rgb(255, 255, 255);
 }
 
  h2.title-faq{
@@ -142,6 +172,10 @@ section.wereco{
   font-family: "Nunito Sans", sans-serif;
   font-size: 0.938rem;  /* 15/16 */
   font-weight: 100;
+}
+
+.faq .ri1{
+  padding-bottom: 4.125rem; /* 66/16 */
 }
 
 footer p{
