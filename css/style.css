@@ -9,6 +9,15 @@ body{
   font-family: "Nunito Sans", sans-serif;
 }
 
+.row.flex {
+  display: flex;
+  flex-flow: row wrap;
+
+  &::before {
+    display: block;
+  }
+}
+
 section.top {
   background-color: #e0f2fc;
 }
@@ -60,12 +69,12 @@ section.wereco{
 
 .wereco .recommendation {
   /* ONLY ON BIG SCREENS */
-  display: flex;
+  margin-bottom: 0.563rem;
   background-color: #fff;
-  margin: 0 0 0.563rem 0;
-  padding: 0 0 1.25rem 1rem;
   border-right: 3px solid #d6ebf6;
   font-family: "Nunito Sans", sans-serif;
+
+  background-color: blue;
 }
 
 .wereco .recommendation.best-choice {
@@ -75,21 +84,23 @@ section.wereco{
   background-position: left;
 }
 
-.recommendation h2 {
+.recommendation .review{
+  padding-left: 3rem;
+}
+
+.recommendation .review h2 {
   /*font-family: "Nunito Sans", sans-serif; */
   font-weight: bolder;
   font-size: 1.25rem; /* 20/16 */
 }
 
-.recommendation h3 {
-  /* font-family: "Nunito Sans", sans-serif; */
+.recommendation .review h3 {
   font-weight: bold;
   font-size: 1rem; /* 16/16 */
   color: rgb(52, 82, 108);
 }
 
-.recommendation p {
-  /* font-family: "Nunito Sans", sans-serif; */
+.recommendation .review p {
   font-weight: bold;
   font-size: 0.938rem; /* 15/16 */
   color: rgb(52, 82, 108);
@@ -103,7 +114,7 @@ section.wereco{
   color: #b3d560;
 }
 
-.recommendation ul.features {
+.recommendation .review ul.features {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -125,12 +136,18 @@ section.wereco{
 }
 
 .recommendation .read-review {
+  background-color:red;
   font-weight: bold;
   font-size: 0.75rem; /* 12/16 */
   color: rgb(52, 82, 108);
 }
 
-.recommendation .logo .learn-more{
+.recommendation .logo{
+  background-color:red;
+  position: relative;
+}
+
+.recommendation .learn-more{
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-size: 1.25rem; /* 20/16 */
@@ -156,14 +173,14 @@ section.wereco{
 }
 
 .btn {
-font-family: "Montserrat", sans-serif;
-font-size: 1.125rem; /* 18/16 */
-color: rgb(255, 255, 255);
-background-color: #a6ce39;
-border: 0;
-border-radius: 0;
-padding: 1.0rem 2.7rem;
-text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem; /* 18/16 */
+  color: rgb(255, 255, 255);
+  background-color: #a6ce39;
+  border: 0;
+  border-radius: 0;
+  padding: 1.0rem 2.7rem;
+  text-align: center;
 }
 
 .btn-default:hover {
@@ -196,6 +213,10 @@ text-align: center;
 .mostpopu .thumbnail{
   border: none;
   background-color: rgba(0, 0, 0, 0);
+}
+
+.mostpopu .thumbnail img{
+  width: 100%;
 }
 
 .mostpopu .thumbnail .caption p{
