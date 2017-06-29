@@ -62,8 +62,8 @@ section.wereco{
   /* ONLY ON BIG SCREENS */
   display: flex;
   background-color: #fff;
-  margin: 0 0rem 2rem 0;
-  padding: 0 0 0 1rem;
+  margin: 0 0 2rem 0;
+  padding: 0 0 1.25rem 1rem;
   border-right: 3px solid #d6ebf6;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -76,8 +76,8 @@ section.wereco{
 }
 
 .recommendation h2 {
-  /* font-family: "Nunito Sans", sans-serif; */
-  font-weight: bold;
+  /*font-family: "Nunito Sans", sans-serif; */
+  font-weight: bolder;
   font-size: 1.25rem; /* 20/16 */
 }
 
@@ -126,8 +126,12 @@ section.wereco{
 
 .recommendation .read-review {
   font-weight: bold;
-  font-size: 0.938rem; /* 15/16 */
+  font-size: 0.75rem; /* 12/16 */
   color: rgb(52, 82, 108);
+}
+
+.recommendation .logo{
+
 }
 
 .recommendation .logo .learn-more{
