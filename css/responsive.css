@@ -1,0 +1,21 @@
+@media all and (min-width: 768px) {
+}
+
+@media all and (max-width: 992px){
+  .faq .faq-row{
+    /* background: linear-gradient(to bottom, #293f54 50%, #34526c 50%); */
+    background: linear-gradient(to bottom, #293f54 100%, #34526c 0%);
+    padding: 0;
+  }
+
+  .faq .faq-row-inverted{
+    /* background: linear-gradient(to bottom, #293f54 50%, #34526c 50%); */
+    background: linear-gradient(to bottom, #293f54 100%, #34526c 0%);
+    color: rgb(255, 255, 255);
+    padding: 0;
+  }
+
+  .recommendation .logo .learn-more {
+    display: none;
+  }
+}

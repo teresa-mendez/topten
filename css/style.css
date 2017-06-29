@@ -75,7 +75,7 @@ section.wereco{
   font-family: "Nunito Sans", sans-serif;
 }
 
-.wereco .recommendation.best-choice {
+.wereco .recommendation .best-choice {
   background-image: url(../img/best-choise.png);
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ section.wereco{
 }
 
 .recommendation .review h2 {
-  ont-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
   font-size: 1.25rem; /* 20/16 */
 }
@@ -100,7 +100,7 @@ section.wereco{
 
 .recommendation .review p {
   font-weight: bold;
-  font-size: 0.938rem; /* 15/16 */
+  font-size: 0.7rem; /* 15/16 */
   color: rgb(52, 82, 108);
 }
 
@@ -116,7 +116,7 @@ section.wereco{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1rem; /* 16/16 */
+  font-size: 0.9rem; /* 15/16 */
   color: rgb(52, 82, 108);
 }
 
@@ -131,17 +131,19 @@ section.wereco{
   font-weight: lighter;
   font-style: italic;
   font-size: 0.813rem; /* 13/16 */
+  padding: 0.5rem;
 }
 
 .recommendation .read-review {
   font-weight: bold;
   font-size: 0.75rem; /* 12/16 */
   color: rgb(52, 82, 108);
+  margin-left: 0.5rem;
 }
 
 .recommendation .logo{
   position: relative;
-  padding-bottom: 1rem;
+  padding: 0 1rem 1rem;
 }
 
 .recommendation .learn-more{
@@ -223,27 +225,30 @@ section.wereco{
   text-align: left;
 }
 
-.faq{
+.faq {
   background-color: rgb(255, 255, 255);
 }
 
-.faq .faq-row{
-  /* ONLY ON BIG SCREENS */
-  background: linear-gradient(to right, #293f54 50%, #34526c 50%);
-  color: rgb(255, 255, 255);
-}
-
-.faq .faq-row-inverted{
-  /* ONLY ON BIG SCREENS */
-  background: linear-gradient(to left, #293f54 50%, #34526c 50%);
-  color: rgb(255, 255, 255);
-}
-
- h2.title-faq{
+.title-faq{
   font-size: 2.25rem;
   font-family: "Nunito Sans", sans-serif;
   color: rgb(0, 0, 0);
   text-align: center;
+  padding: 1rem 0 1rem 0;
+  margin: 0;
+}
+
+
+.faq .faq-row{
+  background: linear-gradient(to right, #293f54 50%, #34526c 50%);
+  padding: 1.5rem 0 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.faq .faq-row-inverted{
+  background: linear-gradient(to left, #293f54 50%, #34526c 50%);
+  padding: 1.5rem 0 1.5rem;
+  color: rgb(255, 255, 255);
 }
 
 .faq h2.subtitle{
@@ -265,6 +270,11 @@ section.wereco{
 
 .faq .list-faq{
   list-style: none;
+  padding: 0;
+}
+
+footer {
+  margin-bottom: 2rem;
 }
 
 footer p{
