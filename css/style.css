@@ -45,13 +45,17 @@ section.top {
 }
 
 section.wereco{
-  /* background-color: #f9fcfe; */
-  background-color: blue;
+  background-color: #f9fcfe;
 }
 
 .wereco .section-header {
-  margin: 0;
+  margin-top: 3.063rem; /* 49/16 */
+  margin-bottom: 2.938rem; /* 47/16 */
   text-align: center;
+  font-size: 2.25rem; /* 36/16 */
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(41, 63, 84);
+  font-weight: lighter;
 }
 
 .wereco .recommendation {
@@ -74,20 +78,20 @@ section.wereco{
 .recommendation h2 {
   /* font-family: "Nunito Sans", sans-serif; */
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20/16 */
 }
 
 .recommendation h3 {
   /* font-family: "Nunito Sans", sans-serif; */
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem; /* 16/16 */
   color: rgb(52, 82, 108);
 }
 
 .recommendation p {
   /* font-family: "Nunito Sans", sans-serif; */
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.938rem; /* 15/16 */
   color: rgb(52, 82, 108);
 }
 
@@ -103,7 +107,7 @@ section.wereco{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1rem; /* 16/16 */
   color: rgb(52, 82, 108);
 }
 
@@ -117,19 +121,19 @@ section.wereco{
   color: rgb(52, 82, 108);
   font-weight: lighter;
   font-style: italic;
-  font-size: 13px;
+  font-size: 0.813rem; /* 13/16 */
 }
 
 .recommendation .read-review {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.938rem; /* 15/16 */
   color: rgb(52, 82, 108);
 }
 
 .recommendation .logo .learn-more{
   font-family: "Montserrat", sans-serif;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20/16 */
   background-image: url(../img/learn-more.png);
   text-decoration: none;
   background-size: cover;
@@ -157,6 +161,7 @@ background-color: #a6ce39;
 border: 0;
 border-radius: 0;
 padding: 1.0rem 2.7rem;
+text-align: center;
 }
 
 .btn-default:hover {
@@ -204,12 +209,14 @@ padding: 1.0rem 2.7rem;
 
 .faq .faq-row{
   /* ONLY ON BIG SCREENS */
-  background: linear-gradient(to right, blue 50%, yellow 50%);
+  background: linear-gradient(to right, #293f54 50%, #34526c 50%);
+  color: rgb(255, 255, 255);
 }
 
 .faq .faq-row-inverted{
   /* ONLY ON BIG SCREENS */
-  background: linear-gradient(to left, blue 50%, yellow 50%);
+  background: linear-gradient(to left, #293f54 50%, #34526c 50%);
+  color: rgb(255, 255, 255);
 }
 
  h2.title-faq{
@@ -222,13 +229,13 @@ padding: 1.0rem 2.7rem;
 .faq h2.subtitle{
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.5rem; /* 24/16 */
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 .faq p{
   font-family: "Nunito Sans", sans-serif;
   font-size: 0.938rem;  /* 15/16 */
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 .faq .features-faq{
