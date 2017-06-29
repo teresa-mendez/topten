@@ -50,17 +50,19 @@ section.wereco{
   background-color: blue;
 }
 
-.wereco h2 {
+.wereco .section-header {
   margin: 0;
   text-align: center;
 }
 
 .wereco .recommendation {
+  /* ONLY ON BIG SCREENS */
   display: flex;
   background-color: #fff;
-  margin: 0 1rem 2rem 0;
+  margin: 0 0rem 2rem 0;
   padding: 0 0 0 1rem;
-  border-right: 0.5rem solid lightblue;
+  border-right: 3px solid #d6ebf6;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .wereco .recommendation.best-choice {
@@ -68,6 +70,26 @@ section.wereco{
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.recommendation h2 {
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.recommendation h3 {
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(52, 82, 108);
+}
+
+.recommendation p {
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(52, 82, 108);
 }
 
 .recommendation .fa-star {
@@ -78,40 +100,55 @@ section.wereco{
   color: #b3d560;
 }
 
-.recommendation ul {
+.recommendation ul.features {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  color: rgb(52, 82, 108);
 }
 
 .recommendation .features .fa-check {
   color: #b3d560;
 }
 
-/* ###HOVER */
-.wereco .logo .learn-more{
-  background-image: url(../img/read-more.png);
+.recommendation .description {
+  /* font-family: "Nunito Sans", sans-serif; */
+  background-color: #f6fbfe;
+  color: rgb(52, 82, 108);
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.recommendation .read-review {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(52, 82, 108);
+}
+
+.recommendation .logo .learn-more{
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 20px;
+  background-image: url(../img/learn-more.png);
+  text-decoration: none;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
   position: absolute;
   width: 100%;
   height: 100%;
-  color: #000;
   background-color: #fff;
-  font-weight: bold;
   justify-content: center;
   display: flex;
   align-items:center;
   transition: opacity .2s ease-in-out;
 }
 
-.wereco .logo:hover .learn-more {
+.recommendation .logo:hover .learn-more {
   opacity: 1;
 }
-
-
-/* ### HOVER */
 
 .btn {
 font-family: "Montserrat", sans-serif;
@@ -166,6 +203,10 @@ padding: 1.0rem 2.7rem;
   background-color: rgb(255, 255, 255);
 }
 
+.faq .faq-row{
+  display: flex;
+}
+
  h2.title-faq{
   font-size: 2.25rem;
   font-family: "Nunito Sans", sans-serif;
@@ -193,6 +234,15 @@ padding: 1.0rem 2.7rem;
   font-family: "Nunito Sans", sans-serif;
   font-size: 0.938rem;  /* 15/16 */
   font-weight: 100;
+}
+
+.faq .features-faq{
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+.faq .list-faq{
+  list-style: none;
 }
 
 .faq .ri1{
