@@ -73,8 +73,6 @@ section.wereco{
   background-color: #fff;
   border-right: 3px solid #d6ebf6;
   font-family: "Nunito Sans", sans-serif;
-
-  background-color: blue;
 }
 
 .wereco .recommendation.best-choice {
@@ -89,7 +87,7 @@ section.wereco{
 }
 
 .recommendation .review h2 {
-  /*font-family: "Nunito Sans", sans-serif; */
+  ont-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
   font-size: 1.25rem; /* 20/16 */
 }
@@ -127,7 +125,7 @@ section.wereco{
 }
 
 .recommendation .description {
-  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
   background-color: #f6fbfe;
   color: rgb(52, 82, 108);
   font-weight: lighter;
@@ -136,15 +134,14 @@ section.wereco{
 }
 
 .recommendation .read-review {
-  background-color:red;
   font-weight: bold;
   font-size: 0.75rem; /* 12/16 */
   color: rgb(52, 82, 108);
 }
 
 .recommendation .logo{
-  background-color:red;
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .recommendation .learn-more{
