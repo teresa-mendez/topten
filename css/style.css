@@ -246,7 +246,7 @@ footer p{
   font-weight: 100;
   color: rgb(41, 63, 84);
   text-align: center;
-  padding: 3.5rem;
+  margin: 3rem 0 3rem;
 }
 
 ul.footer-nav {
