@@ -15,7 +15,27 @@
     padding: 0;
   }
 
+  .wereco .recommendation.best-choice {
+    background-image: none;
+  }
+
+  .wereco .recommendation.best-choice .review {
+    background-image: url(../img/best-choise.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .recommendation .logo p{
+    margin-left: 3rem;
+  }
+
+  .recommendation .read-review {
+    padding-left: 3rem;
+  }
+
   .recommendation .logo .learn-more {
     display: none;
   }
+
 }
