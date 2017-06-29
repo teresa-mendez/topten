@@ -23,7 +23,7 @@ section.top {
 .jumbotron{
   background-image: url(../img/header.png);
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 55%;
   background-position: 95% 100%;
   background-color: #e0f2fc;
   padding: 1rem 0 2rem 0 ;
@@ -62,7 +62,7 @@ section.wereco{
   /* ONLY ON BIG SCREENS */
   display: flex;
   background-color: #fff;
-  margin: 0 0 2rem 0;
+  margin: 0 0 0.563rem 0;
   padding: 0 0 1.25rem 1rem;
   border-right: 3px solid #d6ebf6;
   font-family: "Nunito Sans", sans-serif;
@@ -130,10 +130,6 @@ section.wereco{
   color: rgb(52, 82, 108);
 }
 
-.recommendation .logo{
-
-}
-
 .recommendation .logo .learn-more{
   font-family: "Montserrat", sans-serif;
   color: #000;
@@ -143,9 +139,11 @@ section.wereco{
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
+
   position: absolute;
   width: 100%;
   height: 100%;
+
   background-color: #fff;
   justify-content: center;
   display: flex;
