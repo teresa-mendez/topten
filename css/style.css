@@ -204,7 +204,13 @@ padding: 1.0rem 2.7rem;
 }
 
 .faq .faq-row{
-  display: flex;
+  /* ONLY ON BIG SCREENS */
+  background: linear-gradient(to right, blue 50%, yellow 50%);
+}
+
+.faq .faq-row-inverted{
+  /* ONLY ON BIG SCREENS */
+  background: linear-gradient(to left, blue 50%, yellow 50%);
 }
 
  h2.title-faq{
@@ -212,16 +218,6 @@ padding: 1.0rem 2.7rem;
   font-family: "Nunito Sans", sans-serif;
   color: rgb(0, 0, 0);
   text-align: center;
-}
-
-.faq .cua1{
-  background-color: #293f54;
-  color: rgb(255, 255, 255);
-}
-
-.faq .cua2{
-  background-color: #34526c;
-  color: rgb(255, 255, 255);
 }
 
 .faq h2.subtitle{
@@ -243,10 +239,6 @@ padding: 1.0rem 2.7rem;
 
 .faq .list-faq{
   list-style: none;
-}
-
-.faq .ri1{
-  padding-bottom: 4.125rem; /* 66/16 */
 }
 
 footer p{
