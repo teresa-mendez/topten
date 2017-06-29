@@ -145,6 +145,10 @@ padding: 1.0rem 2.7rem;
   background-color: rgb(255, 255, 255);
 }
 
+.faq .faq-row{
+  display: flex;
+}
+
  h2.title-faq{
   font-size: 2.25rem;
   font-family: "Nunito Sans", sans-serif;
@@ -172,6 +176,15 @@ padding: 1.0rem 2.7rem;
   font-family: "Nunito Sans", sans-serif;
   font-size: 0.938rem;  /* 15/16 */
   font-weight: 100;
+}
+
+.faq .features-faq{
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+.faq .list-faq{
+  list-style: none;
 }
 
 .faq .ri1{
