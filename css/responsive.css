@@ -1,7 +1,13 @@
-@media all and (min-width: 768px) {
-}
-
 @media all and (max-width: 992px){
+  .jumbotron{
+    background-size: 50%;
+    /* background-size: auto; */
+    /* background-size: contain; */
+    background-position: 100% 100%;
+    background-color: #e0f2fc;
+    padding: 1rem 0 2rem 0 ;
+    margin: 0;
+  }
   .faq .faq-row{
     /* background: linear-gradient(to bottom, #293f54 50%, #34526c 50%); */
     background: linear-gradient(to bottom, #293f54 100%, #34526c 0%);

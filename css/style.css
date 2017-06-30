@@ -32,11 +32,10 @@ section.top {
 .jumbotron{
   background-image: url(../img/header.png);
   background-repeat: no-repeat;
-  background-size: 55%;
-  background-position: 95% 100%;
+  background-size: auto;
+  background-position: 45vw 100%;
   background-color: #e0f2fc;
-  padding: 1rem 0 2rem 0 ;
-  margin: 0;
+  padding: 0;
 }
 
 .jumbotron h1 {
@@ -44,6 +43,7 @@ section.top {
   font-size: 3.125rem; /* 50/16 */
   font-weight: 100;
   color: rgb(41, 63, 84);
+  margin-top: 3rem;
 }
 
 .jumbotron p {
@@ -51,6 +51,7 @@ section.top {
   font-size: 1.125rem; /* 18/16 */
   font-weight: 100;
   color: rgb(41, 63, 84);
+  margin-bottom: 3rem;
 }
 
 section.wereco{
