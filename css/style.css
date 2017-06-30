@@ -139,10 +139,12 @@ section.wereco{
   font-style: italic;
   font-size: 0.813rem; /* 13/16 */
   padding: 0.5rem;
+  margin-right: 2rem;
 }
 
 .recommendation .logo{
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .recommendation .learn-more{
@@ -172,6 +174,7 @@ section.wereco{
 
 .recommendation .logo img{
   height: 107px;
+  margin: 0 auto;
 }
 
 .btn {
