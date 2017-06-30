@@ -59,13 +59,18 @@ section.wereco{
 }
 
 .wereco .section-header {
-  margin-top: 3.063rem; /* 49/16 */
+  margin-top: 1rem; /* 49/16 */
   margin-bottom: 2.188rem;
   text-align: center;
   font-size: 2.25rem; /* 36/16 */
   font-family: "Nunito Sans", sans-serif;
   color: rgb(41, 63, 84);
   font-weight: lighter;
+}
+
+.wereco .col-recommendation {
+  padding-left: 4.5px;
+  padding-right: 4.5px;
 }
 
 .wereco .recommendation {
@@ -128,22 +133,12 @@ section.wereco{
 .recommendation .description {
   font-family: "Nunito Sans", sans-serif;
   background-image: url(../img/cuadro-dialogo.png);
+  background-size: contain;
   color: rgb(52, 82, 108);
   font-weight: lighter;
   font-style: italic;
   font-size: 0.813rem; /* 13/16 */
   padding: 0.5rem;
-}
-
-.recommendation .read-review {
-  font-weight: bold;
-  font-size: 0.75rem; /* 12/16 */
-  color: rgb(52, 82, 108);
-  margin-left: 0.5rem;
-}
-
-.recommendation .read-review{
-  text-decoration: none;
 }
 
 .recommendation .logo{
