@@ -127,7 +127,7 @@ section.wereco{
 
 .recommendation .description {
   font-family: "Nunito Sans", sans-serif;
-  background-color: #f6fbfe;
+  background-image: url(../img/cuadro-dialogo.png);
   color: rgb(52, 82, 108);
   font-weight: lighter;
   font-style: italic;
@@ -135,11 +135,15 @@ section.wereco{
   padding: 0.5rem;
 }
 
-.recommendation .logo .read-review {
+.recommendation .read-review {
   font-weight: bold;
   font-size: 0.75rem; /* 12/16 */
   color: rgb(52, 82, 108);
   margin-left: 0.5rem;
+}
+
+.recommendation .read-review{
+  text-decoration: none;
 }
 
 .recommendation .logo{
@@ -262,7 +266,7 @@ section.wereco{
 }
 
  h2.title-faq{
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.363rem;
   font-size: 2.25rem;
   font-family: "Nunito Sans", sans-serif;
   color: rgb(0, 0, 0);
@@ -271,7 +275,7 @@ section.wereco{
 
 .faq h2.subtitle{
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.5rem; /* 24/16 */
+  font-size: 1.125rem; /* 18/16 */
   font-weight: lighter;
 }
 
@@ -279,16 +283,26 @@ section.wereco{
   font-family: "Nunito Sans", sans-serif;
   font-size: 0.938rem;  /* 15/16 */
   font-weight: lighter;
+  color: #b7ccd8;
 }
 
 .faq .features-faq{
-  color: rgb(255, 255, 255);
+  color: #b7ccd8;
   list-style: none;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .faq .list-faq{
+  color: #b7ccd8;
   list-style: none;
   padding: 0;
+}
+
+.faq .check{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 footer {
